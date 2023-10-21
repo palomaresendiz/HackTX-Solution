@@ -25,46 +25,6 @@
       <button type="submit">Log In</button>
     </form>
   </div>
-  <script src="https://www.parsecdn.com/js/parse-1.17.0.min.js"></script>
-  <script>
-    Parse.initialize("vYOu7vgqNnE9f4j7gKqppBNcWAprWDGBVC3SV8u8");
-    Parse.serverURL = "https://parseapi.back4app.com/";
-
-    // Sign Up
-    document.getElementById("signup-form").addEventListener("submit", function (e) {
-      e.preventDefault();
-      const email = document.getElementById("email").value;
-      const password = document.getElementById("password").value;
-      const user = new Parse.User();
-      user.set("username", email);
-      user.set("password", password);
-      user.set("email", email);
-
-      user.signUp().then(
-        (user) => {
-          alert("Sign-up successful!");
-        },
-        (error) => {
-          alert("Error: " + error.message);
-        }
-      );
-    });
-
-    // Log In
-    document.getElementById("login-form").addEventListener("submit", function (e) {
-      e.preventDefault();
-      const loginEmail = document.getElementById("login-email").value;
-      const loginPassword = document.getElementById("login-password").value;
-
-      Parse.User.logIn(loginEmail, loginPassword).then(
-        (user) => {
-          alert("Log-in successful!");
-        },
-        (error) => {
-          alert("Error: " + error.message);
-        }
-      );
-    });
-  </script>
+  
 </body>
 </html>
