@@ -10,6 +10,12 @@ body {
     background-color: #f2f2f2;
     flex-direction: column;
   }
+
+  .logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
   
   .container {
     width: 300px;
@@ -39,7 +45,7 @@ body {
   label {
     display: block;
     font-weight: bold;
-    margin-top: 2px;
+    margin-top: 20px;
   }
   
   input[type="text"],
@@ -49,6 +55,7 @@ body {
     border: 1px solid #d6d6d6;
     border-radius: 5px;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
   
   button {
@@ -65,7 +72,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   
   .forgotpsd {
@@ -79,10 +86,12 @@ body {
   a {
     text-decoration: none;
     color: #007BFF;
-    margin: 50px;
+    margin: 50px;;
   }
   
   a:hover {
     text-decoration: underline;
   }
+
+  
   
