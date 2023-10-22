@@ -11,15 +11,21 @@ body {
     flex-direction: column;
   }
 
-  .logo{
-    width: 100px;
-    height: 20px;
+  #logo{
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 620px;
+    width: 200px; /* Set the desired width */
+    height: auto;
   }
 
-  
+  .logo p {
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 140px;
+    font-weight: bold;
+    color: #f2f2f2;
+}
   
   .container {
     width: 300px;
