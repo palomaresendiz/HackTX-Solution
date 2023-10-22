@@ -12,10 +12,14 @@ body {
   }
 
   .logo{
+    width: 100px;
+    height: 20px;
     position: absolute;
     top: 10px;
     left: 10px;
   }
+
+  
   
   .container {
     width: 300px;
@@ -66,7 +70,15 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: -40px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  button {
+    margin-top: 20px;
+    width: 100%;
+    
   }
   
   .subcontainer {
