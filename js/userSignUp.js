@@ -1,6 +1,8 @@
-Parse.initialize("vYOu7vgqNnE9f4j7gKqppBNcWAprWDGBVC3SV8u8", "rnIdMgPC2xXcrMDzZ1WmoHVSyUy999wyQdjkEWNQ");
+// Initialize Parse
+Parse.initialize("vYOu7vgqNnE9f4j7gKqppBNcWAprWDGBVC3SV8u8");
 Parse.serverURL = "https://parseapi.back4app.com/";
 
+// Get references to input elements
 var nwUsernameInput = document.getElementById("nwUsername");
 var nwPasswordInput = document.getElementById("nwPassword");
 var repeatPasswordInput = document.getElementById("repeatPassword");
@@ -25,10 +27,9 @@ function signUp(username, password) {
     var user = new Parse.User();
     user.set("username", username);
     user.set("password", password);
-    user.set("email", "email@example.com");
 
     user.signUp().then(function (user) {
-        console.log('User created successfully with name: ' + user.get("username") + ' and email: ' + user.get("email"));
+        console.log('User created successfully with name: ' + user.get("username"));
     }).catch(function (error) {
         console.log("Error: " + error.code + " " + error.message);
     });
