@@ -9,19 +9,24 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
+    background-color: #f1efef;
 }
 
 
 #logo {
-    width: 150px;
+    padding-left: 20px;
+    width: 70px;
+    height: 70px;
 }
 
 h1 {
     color: #000000;
+    padding-left: 200px;
+    text-align: center;
 }
+
 nav a {
     margin-left: 40px;
     margin-right: 40px;
@@ -39,8 +44,9 @@ nav a {
 
 input[type="search"] {
     width: 50%;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
+
 }
 
 button {
@@ -57,6 +63,7 @@ button {
 
 #featured-section {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -66,12 +73,13 @@ button {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #mission-section {
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     background-color: #c00000;
     color: #ffffff;
 }
