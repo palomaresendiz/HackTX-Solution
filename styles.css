@@ -9,19 +9,24 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
     align-items: center;
-    padding: 10px 50px;
-    background-color: #f2f2f2;
+    padding: 10px;
 }
+
 
 #logo {
     width: 150px;
 }
 
+h1 {
+    color: #000000;
+}
 nav a {
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 #search-section {
@@ -29,38 +34,53 @@ nav a {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 
 input[type="search"] {
-    width: 60%;
+    width: 50%;
     padding: 10px;
     margin-bottom: 20px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #f2f2f2;
+    background-color: #002aa8;
+    color: #ffffff;
     border: none;
     cursor: pointer;
 }
 
+#featured-header {
+    text-align: center;
+}
+
 #featured-section {
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .politician img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin-right: 40px;
 }
 
 #mission-section {
-    padding: 50px;
-    background-color: #e6e6e6;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #c00000;
+    color: #ffffff;
 }
 
 #mission-section h2 {
     text-align: center;
+    color: #ffffff;
+}
+
+#mission-section p {
+    padding-left: 50px;
 }
