@@ -1,0 +1,117 @@
+/* userProfileStyles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    flex-direction: column;
+  }
+
+  #logo{
+    position: absolute;
+    top: -20px;
+    left: 620px;
+    width: 200px; /* Set the desired width */
+    height: auto;
+  }
+
+  .logo p {
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 140px;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+  
+  .container {
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  .headingsContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #031BBE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  button {
+    margin-top: 20px;
+    width: 100%;
+    
+  }
+  
+  .subcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .forgotpsd {
+    margin-top: 35px;
+  }
+  
+  .register {
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #031BBE;
+    margin: 50px;
+    margin-left: 80px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  
+  
