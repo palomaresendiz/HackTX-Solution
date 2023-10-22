@@ -1,53 +1,152 @@
+<!-- <div style="width: 100%; height: 100%; position: relative; background: white">
+    <div style="width: 821px; height: 159px; left: 566px; top: 352px; position: absolute; background: #FAFAF5; border-radius: 24px; overflow: hidden; border: 2px #E6E6E6 solid">
+        <div style="left: 184px; top: 24px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 600; line-height: 26px; word-wrap: break-word">Democrat</div>
+        <img style="width: 129px; height: 134px; left: 17px; top: 13px; position: absolute" src="https://via.placeholder.com/129x134" />
+    </div>
+    <div style="width: 821px; height: 159px; left: 566px; top: 542px; position: absolute; background: #FAFAF5; border-radius: 24px; overflow: hidden; border: 2px #E6E6E6 solid">
+        <div style="left: 184px; top: 24px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 600; line-height: 26px; word-wrap: break-word">Term</div>
+        <img style="width: 160px; height: 160px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/160x160" />
+        <div style="width: 131px; height: 38px; left: 184px; top: 80px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">President 2008-2016</div>
+    </div>
+    <div style="width: 821px; height: 159px; left: 566px; top: 732px; position: absolute; background: #FAFAF5; border-radius: 24px; overflow: hidden; border: 2px #E6E6E6 solid">
+        <div style="left: 184px; top: 24px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 600; line-height: 26px; word-wrap: break-word">Current Position</div>
+        <img style="width: 160px; height: 160px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/160x160" />
+        <div style="width: 151px; height: 27px; left: 184px; top: 89px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Ex-president</div>
+    </div>
+    <div style="width: 1440px; height: 149px; left: -22px; top: 149px; position: absolute; background: white">
+        <div style="width: 428px; height: 77px; padding-right: 26px; left: 76px; top: 51px; position: absolute; justify-content: flex-start; align-items: center; display: inline-flex">
+            <div style="color: black; font-size: 64px; font-family: Newsreader; font-weight: 400; line-height: 76.80px; word-wrap: break-word">Barack Obama</div>
+        </div>
+        <div style="width: 1248px; height: 0px; left: 96px; top: 149px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 2px #E6E6E6 solid"></div>
+    </div>
+    <div style="width: 812px; height: 55px; left: 290px; top: 120px; position: absolute; background: #D9D9D9"></div>
+    <div style="width: 248px; height: 41px; left: 574px; top: 126px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Newsreader; font-weight: 400; line-height: 48px; word-wrap: break-word">Search bar</div>
+    <div style="width: 1440px; height: 112px; left: -40px; top: 13px; position: absolute">
+        <div style="left: 96px; top: 41px; position: absolute; color: #426B1F; font-size: 32px; font-family: Newsreader; font-weight: 500; line-height: 32px; word-wrap: break-word">Website name here</div>
+        <div style="left: 1119px; top: 56.50px; position: absolute; text-align: center; color: black; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 20.80px; word-wrap: break-word">Home</div>
+        <div style="left: 1350px; top: 56px; position: absolute; text-align: center; color: black; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 20.80px; word-wrap: break-word">My profile</div>
+        <div style="left: 1212px; top: 56px; position: absolute; text-align: center; color: black; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 20.80px; word-wrap: break-word">Who we are</div>
+    </div>
+    <img style="width: 320px; height: 320px; left: 74px; top: 329px; position: absolute" src="https://via.placeholder.com/320x320" />
+    <img style="width: 50px; height: 34px; left: 1042px; top: 133px; position: absolute" src="https://via.placeholder.com/50x34" />
+    <div style="width: 145px; height: 29px; left: 161px; top: 673px; position: absolute; color: #1D4EFB; font-size: 20px; font-family: Inter; font-weight: 400; text-decoration: underline; line-height: 26px; word-wrap: break-word">Speech History</div>
+</div> -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website name here</title>
-    <!-- <link rel="stylesheet" href="profileStyles.css"> -->
+    <title>Title of your page</title>
+    <style>
+        #dynamicImage {
+            /*margin-right: 20px; /* Adjust this value as needed */
+            width: 320px;
+            height: 320px;
+            /* float: top; */
+            position: absolute;
+            /* margin-top: -1900px; */
+            top: 100px;
+            margin-bottom: 10px;
+        }
+
+        .rectangle {
+            width: 50%; 
+            height: 120px;
+            margin-left: 400px;
+            margin-bottom: 10px;
+            margin-right: 80px;
+            /* padding-left: 40%; */
+            /* padding-right: 60%; */
+            /* flex-grow: 1; */
+            /* padding-bottom: 10%; */
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+            border-radius: 10px;
+            background-color: #FAFAF5;
+            float: left;
+
+            background-repeat: no-repeat;
+            background-position: center; /* this will center the image in the div */
+            background-size: small; /* this will cover the entire area of the div */
+}
+        
+
+        .content-wrapper {
+        display: flex;
+        align-items: center; /* This ensures vertical alignment if needed */
+        /* justify-content: space-between; /* This pushes items to the far ends */
+        }
+
+        .smallRectangle {
+            width: 320px;
+            height: 140px;
+            margin-top: 350px;
+            left: 10;
+            background-color: #FAFAF5;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+            border-radius: 10px;
+            float: top;
+        }
+
+    </style>
 </head>
 <body>
+    <h1 id="profileName"> Profile Name </h1>
 
-<header>
-    <h1>Website name here</h1>
-    <input type="text" placeholder="Search bar">
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Who we are</a>
-        <a href="#">My profile</a>
-    </nav>
-</header>
+<hr>
 
-<section class="profile">
-    <h2>Barack Obama</h2>
-    <img src="obama-image-url-here.jpg" alt="Barack Obama">
-    <button>Speech History</button>
+<!-- <div class="content-wrapper"> -->
+    <div class="rectangle" id="rectangle1" style="background-image: url('path-to-your-image1.jpg');"> Initial text 1</div>
+    <div class="rectangle" id="rectangle2" style="background-image: url('path-to-your-image2.jpg');"> Initial text 2</div>
+    <div class="rectangle" id="rectangle3" style="background-image: url('path-to-your-image3.jpg');"> Initial text 3</div>
+<img id="dynamicImage" src="initial-image-url.jpg" alt="Description of the image">
+<br>
 
-    <div class="details">
-        <div class="party">
-            <img src="democrat-icon-url-here.png" alt="Democrat">
-            <p>Democrat</p>
-        </div>
+<div class="smallRectangle" id="smallRectangle1">Initial small text</div>
+<!-- </div> -->
 
-        <div class="term">
-            <img src="seal-icon-url-here.png" alt="Presidential Seal">
-            <p>President</p>
-            <p>2008-2016</p>
-        </div>
+<script>
+    // Get the image element by its ID
+    var imageElement = document.getElementById("dynamicImage");
 
-        <div class="current-position">
-            <img src="ex-president-icon-url-here.png" alt="Ex-president Icon">
-            <p>Ex-president</p>
-        </div>
+    // Change the image source
+    imageElement.src = "new-image-url.jpg";
 
-        <div class="score">
-            <h3>Overall Score</h3>
-            <p>60%</p>
-            <p>True to Word: 50%</p>
-            <p>Community Involvement: 70%</p>
-        </div>
-    </div>
-</section>
+
+        // Access the rectangles by their IDs
+    var rect1 = document.getElementById("rectangle1");
+    var rect2 = document.getElementById("rectangle2");
+    var rect3 = document.getElementById("rectangle3");
+    var smallRect = document.getElementById("smallRectangle1");
+
+    // Change their text content
+    rect1.textContent = " Party:" + " New text for rectangle 1";
+    rect2.textContent = " Term:" + "New text for rectangle 2";
+    rect3.textContent =  " Current Position:" + "New text for rectangle 3";
+    smallRect.textContent = "New text for small rectangle";
+
+        // Get the h1 element by its ID
+    var profileNameElement = document.getElementById("profileName");
+
+    // Change the h1 content
+    profileNameElement.textContent = "New Profile Name";
+
+    // After your existing JavaScript...
+    if(true){
+        var partyImage = "https://upload.wikimedia.org/wikipedia/commons/9/9b/Republicanlogo.svg"
+    }
+    else{
+        var partyImage = "https://www.worldatlas.com/r/w1200/upload/ea/c3/c5/shutterstock-319420406.jpg"
+    }
+    rect1.style.backgroundImage = "url({partyImage})";
+    rect2.style.backgroundImage = "url('https://static.thenounproject.com/png/17131-200.png')";
+    rect3.style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaq3Ly-sRRRX3cRqUfgyQ3GwhVBo3vrCepKEG_8Mpxw&s')";
+</script>
 
 </body>
 </html>
+
